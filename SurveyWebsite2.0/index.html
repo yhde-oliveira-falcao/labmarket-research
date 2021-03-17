@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Market Research</title><!--This title goes on the browser part-->
+		<link rel="stylesheet" href="styles.css">
+		<!--script src="script.js"></script-->
+	</head>
+
+	<body>
+
+		<div class="main_container" id="home"><!--the whole homepage-->
+			
+			<!--div class="navbar">
+				<div class="logo">
+					<a href="index.html">Recording Dreams</a>
+				</div>
+				
+			</div-->
+			<div class="banner_image">
+				<div class="banner_content">
+					<h1>Falcon Labs New Laboratory Instrument<br> <span> <span></h1>
+					<p></p>				
+				</div>	
+			</div>
+
+			<!-- ======================START POINT ======================-->
+			<div class=>
+
+			<div class="about" id="about" >
+				<h2 class="title" style= "padding-left: 15px; font-size: 35px;">Help Us to Create the Best Product</h2>
+				<p style= "padding-left: 15px;">We are creating a series of intruments for laboratory that will have portability,
+				connectivity, multiplataform interface and <br>control (smart devices and computers) and much more software resources 
+				to help you develop and optimize your research. <br></p>
+				<!-- div class="btn"><a href="#">Learn More</a></div -->
+			</div>
+
+			<div class="contactus" id="contactus">
+				<h2 class="title" style= "padding-left: 15px;">Send us your valuable feedback</h2>
+				<br>
+				<form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/xjveongd" method="POST">
+					<fieldset id="fs-frm-inputs">
+
+					<div class="form_input" style= "padding-left: 15px;"><br>
+						<label for="full-name">Name</label>
+						<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+						<label for="email-address">Email Address</label>
+						<input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+					</div><br><br>
+			
+
+					<div class="form_input" style= "padding-left: 15px;">
+						<label for="jobpos">Your Job or Laboratory Position</label>
+						<input type="jobpos" name="jobpos" id="Position" placeholder="E.g. Researcher" required="">
+					</div><br>
+
+					<!-- ========================================================================================================== -->
+					<fieldset id="fs-frm-selects" style= "padding-left: 15px;"><br>
+						<div class="form_input">
+							<label for="instruments">1. What instruments do you use most in your laboratory or company?</label><br><br>
+							<div style="display:flex;">
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="Stir Plate" ><label for="scales">Hot/Stirring Plate</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="pHTesters" ><label for="scales">pH and Ions Tester</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Conduc" ><label for="scales">Conductivity Tester</label></div></li>
+								</ul>
+							</div><br>
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="UV-Vis" ><label for="scales">UV-Vis Spectrometer</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="IR" ><label for="scales">Infrared Spectrometer</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Fluor" ><label for="scales">Fluorimeter</label></div></li>
+								</ul>
+							</div><br>
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="HPLC" ><label for="scales">HPLC</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="GC" ><label for="scales">Gas Chromatography</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="NMR" ><label for="scales">NMR</label></div></li>
+								</ul>
+							</div><b0r>
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="ICP" ><label for="scales">ICP (Induced Coupled Plasma)</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="DTG-DSC" ><label for="scales">DTG-DSC <spam>(Thermogravimetry and Calorimetry)</spam></label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Atomic-Abs-Ems" ><label for="scales">Atomic Abs./Atomic Emission</label></div></li>
+								</ul>
+							</div><br>
+						</div>
+						</div><br><br>
+						<!-- ================================================================================================================= -->
+
+						<div class="form_input">
+							<label for="Share data in real time">2. Have you ever had any problem with any of the above mentioned instruments? 
+								<!-- br> Either to your laboratory manager/advisor, research partners or even directly to clients.<br --></label> <br>
+							<select name="Share data" id="Share data" required="">
+							<option value="Choose" selected="" disabled="">Select</option>
+							<option value="Yes 1">Yes, with software interface</option>
+							<option value="Yes 2">Yes, converting the data to another format (plataform)</option>
+							<option value="Yes 3">Yes, I cannot move the instrument arround</option>
+							<option value="Yes 4">Yes, I can only work inside a Lab.</option>
+							<option value="Yes Other">Yes, other (describe)</option>
+							<option value="No">No</option>
+							</select>
+							<div class="form_input" style= "padding-left: 15px;"><br>
+								<label for="Probl.Descr.">Description</label><br>
+								<textarea rows="3" name="message" id="message" placeholder="Problem Description" required=""></textarea>
+								<input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+							</div>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="Smartphone">3. Do you work exclusively to process data (e.g. making spreadsheets) after the experiments?</label>
+							<br>
+								<!--p>Consider the application to be proprietary, secure and with user friendly interface.<br-->
+							<select name="Work with data" id="Work with data" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option></p>
+							<option value="Rarely">Rarely</option>
+							</select>
+						</div><br><br>
+
+						<div class="form_input">
+							<label for="Smartphone">3.1 Is the time spent processing data and making reports important or should be optmized with automation?</label>
+								<!--p>Consider the application to be proprietary, secure and with user friendly interface.<br-->
+								<br>
+							<select name="Work with data" id="Work with data" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes, should be optmized</option>
+							<option value="No">No, better to make each report</option></p>
+							<option value="not sure">Not sure</option>
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="timely">4. Do you feel comfortable with the software of your lab instruments?</label><br>
+							<select name="software" id="software" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="Not sure">Not sure</option>
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="timely">5. Do you think a more resourceful lab instrument interface with analytical and <br>
+								statistical tools would help your work?</label><br>
+							<select name="resourceful" id="resourceful" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="Not sure">Not sure</option>
+							</select>
+						</div><br><br><br>
+
+
+						<div class="form_input" >
+							<label for="Smart App Control?">6. Do you prefer writing the data on a book or saving it in a computer or smartphone?<br></label>
+								
+							<select name="Smart App Control?" id="Smart App Control?" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Writing Down Data">Writing on a log notebook</option>
+							<option value="Saving Data">Computer</option>
+							<option value="Saving Data">Smartphone</option></p>
+							<option value="Not sure">Not sure</option>
+						
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="Smartphone">7. Would you consider using your smartphone to save the results of
+								<br> of your experiments?<br>
+							<select name="Smart App Control?" id="Smart App Control?" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="Prefer other methods">Maybe, but prefer computer or writing</option></p>
+							<option value="No">No</option>
+						</label>
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="Share data in real time">8. Would it be helpful to send/receive instrument data and reports in real-time? 
+								<br> Either to your laboratory manager/advisor, research partners or even directly to clients.</label><br>
+							<select name="Share data" id="Share data" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="In some cases">In some cases</option>
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="timely">9. Do you think a multipurpose instrument like a pH + Conductivity + Hotplate <br>
+								would help saving space in the lab (or even help your work)?</label><br>
+							<select name="multipurpose" id="multipurpose" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="No, many">Better to have individual instruments</option>
+							<option value="Not sure">Not sure</option>
+							</select>
+						</div><br><br><br>
+
+
+						
+				
+						</fieldset>
+						<div class="form_input" style= "padding-left: 15px;"><br>
+							<label for="message">Additional Comments and Suggestions:</label><br><br>
+							<textarea rows="4" name="message" id="message" placeholder="Your suggestions." required=""></textarea>
+							<input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+						</div><br>
+						<div style="text-align: center;">
+							<input style="background-color: rgb(74, 123, 180); /* Green */
+							border: none;
+							color: white;
+							padding: 15px 32px;
+							text-align: center;
+							text-decoration: none;
+							display: inline-block;
+							font-size: 16px;" type="submit" value="Send Responses"><br>
+							<p> Thank you for your collaboration.</p>
+						</div> <br>
+					</fieldset><br>
+						<!--Work on the idea of CUSTOMER SEGMENT  ----- PROBLEM ----- SOLUTION kind of survey. start with my customers 
+						who are them, then go to ask about their problems, then finally present my solution and ask about it. -->
+				</form>
+			</div>
+			
+		</div>
+
+			<div class="footer">
+				<a href="#"></a>
+				<p></p>
+			</div>
+		</div>	
+	</body>
+</html>
